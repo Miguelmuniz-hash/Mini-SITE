@@ -1,0 +1,357 @@
+@media screen and (min-width: 1026px) and (max-width: 1920px){
+
+/*navbar*/
+
+.navizona{
+    background-color: #433D8B;
+
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.bodyHOME{
+    margin: 0;
+    padding: 0;
+}
+
+.abas{
+    display: flex;
+    gap: 40px;
+
+    
+}
+
+.abas p{
+    text-decoration: none;
+    color: white;
+
+     font-family: 'Poppins', sans-serif;
+    font-weight: 700;                  
+}
+
+.deixar-em-colunas{
+
+margin-top: 60px;
+
+
+justify-content: center; 
+
+display: grid;
+grid-template-columns: repeat(3,  350px);
+gap: 60px 250px; 
+
+margin-bottom: 50px;
+
+}
+
+.etapa-1{
+   
+    padding: 20px;    
+background-color: #FCE89B;
+}
+
+.titulo-HOME{
+    display: flex;
+    margin-top: 60px;
+    
+    justify-content: center;
+
+    font-family: 'Inter', sans-serif;
+    font-size: 60px;
+}
+
+.IMAGEM-HOME{
+    justify-content: center;
+     margin-top: 60px;
+     display: flex;
+}
+
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1722px) {
+
+    /*navbar*/
+    .navizona {
+        background-color: #433D8B;
+        padding: 10px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .bodyHOME {
+        margin: 0;
+        padding: 0;
+    }
+
+    .abas {
+        display: flex;
+        gap: 25px;
+    }
+
+    .abas p {
+        text-decoration: none;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;                  
+    }
+
+    .deixar-em-colunas {
+        margin-top: 40px;
+        justify-content: center; 
+        display: grid;
+        
+        grid-template-columns: repeat(3, minmax(250px, 350px));
+        
+        gap: 40px 4%; 
+        margin-bottom: 40px;
+        padding: 0 20px; 
+    }
+
+    .etapa-1 {
+        padding: 20px;    
+        background-color: #FCE89B;
+    }
+
+    .titulo-HOME {
+        display: flex;
+        margin-top: 40px;
+        justify-content: center;
+        font-family: 'Inter', sans-serif;
+        font-size: 2.5rem; 
+        text-align: center;
+    }
+
+    .IMAGEM-HOME {
+        justify-content: center;
+        margin-top: 40px;
+        display: flex;
+    }
+    
+   
+    .IMAGEM-HOME img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    /*navbar*/
+    .navizona {
+        background-color: #433D8B;
+        padding: 10px 15px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between; /
+    }
+
+    .bodyHOME {
+        margin: 0;
+        padding: 0;
+    }
+
+    .abas {
+        display: flex;
+        gap: 20px; 
+    }
+
+    .abas p {
+        text-decoration: none;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;                  
+        font-size: 0.95rem; 
+    }
+
+    .deixar-em-colunas {
+        margin-top: 40px;
+        justify-content: center; 
+        display: grid;
+        
+        grid-template-columns: repeat(2, minmax(240px, 320px));
+        gap: 30px 5%; 
+        margin-bottom: 40px;
+        padding: 0 25px;
+    }
+
+    .etapa-1 {
+        padding: 15px; 
+        background-color: #FCE89B;
+    }
+
+    .titulo-HOME {
+        display: flex;
+        margin-top: 40px;
+        justify-content: center;
+        font-family: 'Inter', sans-serif;
+        font-size: 2rem; 
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    .IMAGEM-HOME {
+        justify-content: center;
+        margin-top: 35px;
+        display: flex;
+        padding: 0 20px;
+    }
+
+
+    .IMAGEM-HOME img {
+        max-width: 90%;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 780px) {
+
+    /*navbar*/
+    .navizona {
+        background-color: #433D8B;
+        padding: 15px 10px;
+        display: flex;
+        flex-direction: column; 
+        gap: 15px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .bodyHOME {
+        margin: 0;
+        padding: 0;
+    }
+
+    .abas {
+        display: flex;
+        gap: 15px; 
+        flex-wrap: wrap; 
+        justify-content: center;
+    }
+
+    .abas p {
+        text-decoration: none;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;                  
+        font-size: 0.9rem; 
+        margin: 0;
+    }
+
+    .deixar-em-colunas {
+        margin-top: 30px;
+        justify-content: center; 
+        display: grid;
+        
+        grid-template-columns: 1fr; 
+        gap: 30px; 
+        margin-bottom: 30px;
+        padding: 0 20px; 
+    }
+
+    .etapa-1 {
+        padding: 20px;    
+        background-color: #FCE89B;
+        border-radius: 8px; 
+    }
+
+    .titulo-HOME {
+        display: flex;
+        margin-top: 30px;
+        justify-content: center;
+        font-family: 'Inter', sans-serif;
+        font-size: 1.75rem; 
+        text-align: center;
+        padding: 0 15px;
+    }
+
+    .IMAGEM-HOME {
+        justify-content: center;
+        margin-top: 30px;
+        display: flex;
+        padding: 0 15px;
+    }
+
+    
+    .IMAGEM-HOME img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 479px) {
+
+    /*navbar*/
+    .navizona {
+        background-color: #433D8B;
+        padding: 15px 10px;
+        display: flex;
+        flex-direction: column; 
+        gap: 12px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .bodyHOME {
+        margin: 0;
+        padding: 0;
+    }
+
+    .abas {
+        display: flex;
+        flex-direction: column; 
+        gap: 10px; 
+        align-items: center;
+    }
+
+    .abas p {
+        text-decoration: none;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;                  
+        font-size: 0.85rem; 
+        margin: 0;
+    }
+
+    .deixar-em-colunas {
+        margin-top: 25px;
+        justify-content: center; 
+        display: grid;
+        grid-template-columns: 1fr; 
+        gap: 20px; 
+        margin-bottom: 25px;
+        padding: 0 15px; 
+    }
+
+    .etapa-1 {
+        padding: 15px; 
+        background-color: #FCE89B;
+        border-radius: 6px;
+    }
+
+    .titulo-HOME {
+        display: flex;
+        margin-top: 25px;
+        justify-content: center;
+        font-family: 'Inter', sans-serif;
+        font-size: 1.4rem; 
+        text-align: center;
+        padding: 0 10px;
+        line-height: 1.2;
+    }
+
+    .IMAGEM-HOME {
+        justify-content: center;
+        margin-top: 25px;
+        display: flex;
+        padding: 0 10px;
+    }
+
+    
+    .IMAGEM-HOME img {
+        max-width: 100%;
+        height: auto;
+    }
+}

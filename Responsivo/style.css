@@ -1,50 +1,50 @@
 @media screen and (min-width: 0px) and (max-width: 479px){
 
 .bodyzinho{
-    background-color: blue;
+    background-color: #433D8B;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 label p{
-    font-size: 130%; /* Reduzido levemente para telas pequenas */
+    font-size: 130%; 
 }
 
 .box{
-    width: 90%; /* Ocupa 90% da largura da tela do celular */
-    max-width: 400px; /* Impede que fique gigante em telas intermediárias */
-    height: auto; /* Altura automática para não cortar o conteúdo */
-    min-height: 500px; /* Garante um tamanho mínimo sem bugar */
+    width: 90%; 
+    max-width: 400px; 
+    height: auto; 
+    min-height: 500px; 
     background-color: white;
     border-radius: 10px;
-    margin-top: 40px; /* Reduzido para não sumir na tela do celular */
+    margin-top: 40px; 
     margin-bottom: 40px;
     
     display: flex;
     flex-direction: column;   
     justify-content: center;  
     align-items: center;      
-    gap: 15px; /* Adicionado espaço entre os elementos internos */
-    padding: 20px; /* Espaçamento interno para o conteúdo não tocar nas bordas */
-    box-sizing: border-box; /* Garante que o padding não aumente o tamanho da box */
+    gap: 15px; 
+    padding: 20px; 
+    box-sizing: border-box; 
 }
 
 .box h1{
-    font-size: 160%; /* Reduzido para não quebrar linha incorretamente */
+    font-size: 160%; 
     text-align: center;
 }
 
 .preencher{
     padding: 0;
     margin: 0;
-    background-color: blue;
+    background-color: #433D8B;
 }
 
 input{
     padding: 12px;
-    width: 100%; /* Ocupa toda a largura disponível dentro da box */
-    max-width: 280px; /* Limita o tamanho máximo do input */
+    width: 100%; 
+    max-width: 280px; 
     border-radius: 5px;
     box-sizing: border-box;
 }
@@ -52,7 +52,7 @@ input{
 .botaozao{
     background-color: gray;
     border-radius: 10px;
-    padding: 15px 40px; /* Reduzido para proporção de celular */
+    padding: 15px 40px; 
     margin-top: 15px;
     font-size: 100%;
 }
@@ -62,7 +62,7 @@ input{
 @media screen and (min-width: 480px) and (max-width: 780px){
 
 .bodyzinho{
-    background-color:  blue;
+    background-color:  #433D8B;
 
     
     display: flex;
@@ -99,7 +99,7 @@ margin-bottom: 50px;
 .preencher{
     padding: 0;
     margin: 0;
-    background-color: blue;
+    background-color: #433D8B;
 }
 
 input{
@@ -124,7 +124,7 @@ input{
 @media screen and (min-width: 768px) and (max-width: 1024px){
 
 .bodyzinho{
-    background-color:  blue;
+    background-color:  #433D8B;
 
     
     display: flex;
@@ -161,7 +161,7 @@ margin-bottom: 50px;
 .preencher{
     padding: 0;
     margin: 0;
-    background-color: blue;
+    background-color: #433D8B;
 }
 
 input{
@@ -183,24 +183,24 @@ input{
 @media screen and (min-width: 1025px) and (max-width: 1722px){
 
 .bodyzinho{
-    background-color: blue;
+    background-color: #433D8B;
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 100vh; /* Garante que o fundo ocupe toda a altura da tela do PC */
+    min-height: 100vh; 
 }
 
 label p{
-    font-size: 150%; /* Texto legível para leitura em monitores */
+    font-size: 150%; 
 }
 
 .box{
     width: 100%;
-    max-width: 550px; /* Caixa robusta e centralizada no monitor */
+    max-width: 550px; 
     height: auto;
-    min-height: 650px; /* Proporção vertical elegante para desktop */
+    min-height: 650px; 
     background-color: white;
-    border-radius: 15px; /* Bordas levemente mais suaves em telas maiores */
+    border-radius: 15px; 
     margin-top: 60px;
     margin-bottom: 60px;
     
@@ -208,13 +208,13 @@ label p{
     flex-direction: column;   
     justify-content: center;  
     align-items: center;      
-    gap: 25px; /* Maior espaçamento entre os elementos no PC */
-    padding: 40px; /* Mais respiro para o conteúdo interno */
+    gap: 25px; 
+    padding: 40px; 
     box-sizing: border-box;
 }
 
 .box h1{
-    font-size: 220%; /* Título de destaque para telas grandes */
+    font-size: 220%; 
     text-align: center;
     margin-bottom: 10px;
 }
@@ -222,25 +222,91 @@ label p{
 .preencher{
     padding: 0;
     margin: 0;
-    background-color: blue;
+    background-color: #433D8B;
 }
 
 input{
-    padding: 15px; /* Campo mais alto e fácil de clicar com o mouse */
+    padding: 15px; 
     width: 100%;
-    max-width: 420px; /* Input largo acompanhando o tamanho da box */
+    max-width: 420px; 
     border-radius: 8px;
-    font-size: 110%; /* Texto interno do input legível */
+    font-size: 110%;
     box-sizing: border-box;
 }
 
 .botaozao{
     background-color: gray;
     border-radius: 10px;
-    padding: 18px 60px; /* Botão imponente para clique em desktop */
+    padding: 18px 60px; 
     margin-top: 25px;
-    font-size: 120%; /* Texto do botão destacado */
-    cursor: pointer; /* Transforma a seta do mouse na mãozinha de clique */
+    font-size: 120%; 
+    cursor: pointer; 
 }
 
 }
+
+@media screen and (min-width: 1026px) and (max-width: 1920px){
+    .bodyzinho{
+    background-color: #433D8B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; 
+}
+
+label p{
+    font-size: 150%; 
+}
+
+.box{
+    width: 100%;
+    max-width: 550px; 
+    height: auto;
+    min-height: 650px;
+    background-color: white;
+    border-radius: 15px; 
+    margin-top: 60px;
+    margin-bottom: 60px;
+    
+    display: flex;
+    flex-direction: column;   
+    justify-content: center;  
+    align-items: center;      
+    gap: 25px; 
+    padding: 40px; 
+    box-sizing: border-box;
+}
+
+.box h1{
+    font-size: 220%; 
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.preencher{
+    padding: 0;
+    margin: 0;
+    background-color: #433D8B;
+}
+
+input{
+    padding: 15px; 
+    width: 100%;
+    max-width: 420px; 
+    border-radius: 8px;
+    font-size: 110%; 
+    box-sizing: border-box;
+}
+
+.botaozao{
+    background-color: gray;
+    border-radius: 10px;
+    padding: 18px 60px; 
+    margin-top: 25px;
+    font-size: 120%; 
+    cursor: pointer; 
+}
+
+}
+
+

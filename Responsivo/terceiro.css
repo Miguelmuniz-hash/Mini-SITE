@@ -1,0 +1,328 @@
+
+@media screen and (min-width: 1026px) and (max-width: 1920px){
+
+/*navbar*/
+
+.navizona{
+    background-color: #433D8B;
+
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+
+    margin-bottom: 50px;
+}
+
+.bodyHOME{
+    margin: 0;
+    padding: 0;
+}
+
+.abas{
+    display: flex;
+    gap: 40px;
+
+    
+}
+
+.abas p{
+    text-decoration: none;
+    color: white;
+
+     font-family: 'Poppins', sans-serif;
+    font-weight: 700;                  
+}
+
+
+.bloco-PERFIL{
+
+
+    background-color: #ffffff; 
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+    border: none;              
+    border-radius: 8px;
+   
+    width: 90%;
+    max-width: 450px;          
+    margin: 20px auto;        
+    padding: 20px;   
+    
+}
+
+.características-PERFIL{
+       display: flex;
+    flex-direction: column;    
+    align-items: center;       
+    text-align: center;
+   margin: -5;
+}
+
+.características-PERFIL h1{
+    margin-bottom: 30px;
+}
+
+
+.centralizar-PERFIL{
+    display: flex;
+    justify-content: center;
+    
+}
+
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1722px) {
+
+    /*navbar*/
+    .navizona {
+        background-color: #433D8B;
+        padding: 10px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        
+        margin-bottom: 35px; 
+    }
+
+    .bodyHOME {
+        margin: 0;
+        padding: 0;
+    }
+
+    .abas {
+        display: flex;
+        gap: 30px; 
+    }
+
+    .abas p {
+        text-decoration: none;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;                  
+    }
+
+    .bloco-PERFIL {
+        background-color: #ffffff; 
+        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+        border: none;              
+        border-radius: 8px;
+        width: 85%; 
+        max-width: 400px; 
+        margin: 15px auto;
+        padding: 20px;   
+    }
+
+    .características-PERFIL {
+        display: flex;
+        flex-direction: column;    
+        align-items: center;       
+        text-align: center;
+        margin: 0; 
+    }
+
+    .características-PERFIL h1 {
+        margin-bottom: 20px; 
+        font-size: 1.8rem; 
+    }
+
+    .centralizar-PERFIL {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    /*navbar*/
+    .navizona {
+        background-color: #433D8B;
+        padding: 10px 15px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between; 
+        margin-bottom: 30px; 
+    }
+
+    .bodyHOME {
+        margin: 0;
+        padding: 0;
+    }
+
+    .abas {
+        display: flex;
+        gap: 20px; 
+    }
+
+    .abas p {
+        text-decoration: none;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;                  
+        font-size: 0.95rem; 
+    }
+
+    .bloco-PERFIL {
+        background-color: #ffffff; 
+        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.12); 
+        border: none;              
+        border-radius: 8px;
+        width: 80%; 
+        max-width: 360px; 
+        margin: 15px auto;         
+        padding: 18px; 
+    }
+
+    .características-PERFIL {
+        display: flex;
+        flex-direction: column;    
+        align-items: center;       
+        text-align: center;
+        margin: 0; 
+    }
+
+    .características-PERFIL h1 {
+        margin-bottom: 15px; 
+        font-size: 1.5rem; 
+    }
+
+    .centralizar-PERFIL {
+        display: flex;
+        justify-content: center;
+        padding: 0 20px; 
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 780px) {
+
+    /*navbar*/
+    .navizona {
+        background-color: #433D8B;
+        padding: 15px 10px;
+        display: flex;
+        flex-direction: column; 
+        gap: 12px;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 25px; 
+    }
+
+    .bodyHOME {
+        margin: 0;
+        padding: 0;
+    }
+
+    .abas {
+        display: flex;
+        gap: 15px; 
+        flex-wrap: wrap; 
+        justify-content: center;
+    }
+
+    .abas p {
+        text-decoration: none;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;                  
+        font-size: 0.9rem; 
+        margin: 0;
+    }
+
+    .bloco-PERFIL {
+        background-color: #ffffff; 
+        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.12);
+        border: none;              
+        border-radius: 8px;
+        width: 90%; 
+        max-width: 340px; 
+        margin: 10px auto; 
+        padding: 15px; 
+    }
+
+    .características-PERFIL {
+        display: flex;
+        flex-direction: column;    
+        align-items: center;       
+        text-align: center;
+        margin: 0; 
+    }
+
+    .características-PERFIL h1 {
+        margin-bottom: 12px;
+        font-size: 1.35rem; 
+    }
+
+    .centralizar-PERFIL {
+        display: flex;
+        justify-content: center;
+        padding: 0 15px; 
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 479px) {
+
+    /*navbar*/
+    .navizona {
+        background-color: #433D8B;
+        padding: 15px 10px;
+        display: flex;
+        flex-direction: column; 
+        gap: 12px;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px; 
+    }
+
+    .bodyHOME {
+        margin: 0;
+        padding: 0;
+    }
+
+    .abas {
+        display: flex;
+        flex-direction: column;
+        gap: 10px; 
+        align-items: center;
+    }
+
+    .abas p {
+        text-decoration: none;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;                  
+        font-size: 0.85rem; 
+        margin: 0;
+    }
+
+    .bloco-PERFIL {
+        background-color: #ffffff; 
+        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.12);
+        border: none;              
+        border-radius: 6px;
+        width: 92%; 
+        max-width: 290px; 
+        margin: 10px auto;         
+        padding: 15px; 
+    }
+
+    .características-PERFIL {
+        display: flex;
+        flex-direction: column;    
+        align-items: center;       
+        text-align: center;
+        margin: 0; 
+    }
+
+    .características-PERFIL h1 {
+        margin-bottom: 10px;
+        font-size: 1.2rem; 
+        line-height: 1.3;
+    }
+
+    .centralizar-PERFIL {
+        flex-direction: column;
+       text-align: center;
+        justify-content: center;
+        padding: 0 10px; 
+    }
+}
